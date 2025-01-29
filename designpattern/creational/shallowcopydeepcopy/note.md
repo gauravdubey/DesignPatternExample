@@ -121,3 +121,19 @@ public class DeepCopyExample {
 
 ##  Key Differences: Shallow Copy vs Deep Copy
 
+![Alt text](https://github.com/gauravdubey/DesignPatternExample/blob/main/images/shallowvsDeepCopy.png)
+
+## When to Use Which?
+- Use Shallow Copy when:
+    - You don't need separate copies of nested objects.
+    - The nested objects are immutable (e.g., String).
+- Use Deep Copy when:
+    - Each copy should be completely independent.
+    - You're working with modifiable nested objects.
+
+## Conclusion
+- Shallow Copy is faster but risky if modifications are needed.
+- Deep Copy ensures full independence but requires extra effort.
+- Use clone() for shallow copy and manually copy nested objects for deep copy.
+
+

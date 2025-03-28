@@ -1,6 +1,6 @@
 package com.gaurav.designpattern.creational.factorydesign;
 
-public class DeveloperClient {
+public class DeveloperClientMain {
 
     public static void main(String[] args) {
         Employee employee= EmployeeFactory.getEmployee("ANDROID DEVELOPER");
